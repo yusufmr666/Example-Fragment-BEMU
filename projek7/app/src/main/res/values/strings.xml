@@ -82,6 +82,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="judul_stunting">judul_stunting</string>
+    <string name="jenis_stunting">jenis_stunting</string>
+    <string name="isi_stunting">isi_stunting</string>
+    <string name="ivbackdrop">ivbackdrop</string>
+    <string name="arsip">Arsip</string>
 
 
 </resources>

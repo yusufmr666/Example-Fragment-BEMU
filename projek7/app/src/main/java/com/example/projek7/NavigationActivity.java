@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Menu;
+import android.widget.Button;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -21,12 +22,14 @@ public class NavigationActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +49,11 @@ public class NavigationActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
-    }
+
+
+
+
+        }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -62,16 +69,10 @@ public class NavigationActivity extends AppCompatActivity {
                 || super.onSupportNavigateUp();
     }
 
-    public void vote(View view) {
-        Intent intent = new Intent(NavigationActivity.this, ListActivity.class);
-        startActivity(intent);
-    }
 
-    public void profil(View view) {
-        Intent intent = new Intent(NavigationActivity.this, ProfilActivity.class);
-        startActivity(intent);
-    }
 }
+
+
 
 
 
