@@ -3,7 +3,6 @@
     <string name="pengurus_name">Nama Pengurus</string>
     <string name="detail">Detail</string>
     <string name="list">List</string>
-    <string name="grid">Grid</string>
     <string name="with_cardview">with CardView</string>
     <string name="favorite">Favorite</string>
     <string name="share">Share</string>
@@ -86,6 +85,7 @@
     <string name="jenis_stunting">jenis_stunting</string>
     <string name="isi_stunting">isi_stunting</string>
     <string name="ivbackdrop">ivbackdrop</string>
+    <string name="grid">Grid</string>
     <string name="arsip">Arsip</string>
 
 
